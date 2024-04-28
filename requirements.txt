@@ -48,7 +48,7 @@ entrypoints==0.3
 et-xmlfile==1.0.1
 fastcache==1.1.0
 filelock==3.0.12
-flask==2.1.2
+flask==3.0.3
 flask-SQLAlchemy
 flask-Login
 flask-WTF
