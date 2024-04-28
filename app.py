@@ -17,7 +17,7 @@ from wtforms.validators import InputRequired, DataRequired
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///pet_adoption.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config['SECRET_KEY'] = 'your_secret_key'
+app.config['SECRET_KEY'] = 'qwerty'
 csrf = CSRFProtect(app)
 
 db = SQLAlchemy(app)
